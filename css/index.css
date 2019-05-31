@@ -289,10 +289,12 @@ button {
 
 /* Products */
 
-.productimg {
+.productblock img {
     width: 300px;
     height: 250px;
 }
+
+
 
 
 /* For some reason the images change size in my display when I refresh, even without any edits to code. ???  */
