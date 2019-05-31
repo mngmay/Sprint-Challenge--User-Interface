@@ -306,7 +306,7 @@ button {
 .aboutblock {
     display: flex;
     flex-flow: column;
-    width: 400px;
+    width: 360px;
     height: 430px;
     border-bottom: 1px dashed black;
     margin: 0 20px;
@@ -347,7 +347,6 @@ button {
 
 
 /* For some reason the images change size in my display when I refresh, even without any edits to code. ???  */
-
 
 .middle-content-products {
     display: flex;
