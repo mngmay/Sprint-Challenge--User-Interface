@@ -71,6 +71,32 @@ p {
     margin: 0 auto;
 }
 
+.headerimg {
+    margin: 30px 0 20px 0;
+    width: 800px;
+}
+
+/* top navigation */
+
+header nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 30px 30px 0 0;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    border-bottom: 3px solid black;
+}
+
+/* ------ */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -143,4 +169,160 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Box colors! */
+
+.middle-content .boxes .box{
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-content .boxes .box:nth-of-type(1) {
+    background: teal;
+  }
+  
+
+  .middle-content .boxes .box:nth-of-type(2) {
+    background: gold;
+  }
+  
+
+  .middle-content .boxes .box:nth-of-type(3) {
+    background:cadetblue;
+  }
+  
+
+  .middle-content .boxes .box:nth-of-type(4) {
+    background: coral;
+  }
+  
+  .middle-content .boxes .box:nth-of-type(5) {
+    background: crimson;
+  }
+  
+
+  .middle-content .boxes .box:nth-of-type(6) {
+    background: forestgreen;
+  }
+  
+  .middle-content .boxes .box:nth-of-type(7) {
+    background: darkorchid;
+  }
+  
+
+  .middle-content .boxes .box:nth-of-type(8) {
+    background: hotpink;
+  }
+  
+
+  .middle-content .boxes .box:nth-of-type(9) {
+    background:indigo;
+  }
+  
+
+  .middle-content .boxes .box:nth-of-type(10) {
+    background: dodgerblue;
+  }
+  
+
+/* ------ */
+
+
+/* About Page */
+
+.top-content-about {
+    border-bottom: 1px dashed black;
+    padding: 0 20px 20px 20px;
+}
+
+button {
+    border-radius: 10px;
+    border: solid 2px black;
+    padding: 8px;
+    font-size: 15px;
+    width: 120px;
+    font-weight: 450;
+    margin: 20px 0;
+}
+
+.aboutblock {
+    display: flex;
+    flex-flow: column;
+    width: 360px;
+    height: 430px;
+    border-bottom: 1px dashed black;
+    margin: 0 20px;
+}
+
+.middle-content-about {
+    margin: 50px 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 920px;
+
+}
+.aboutblock img {
+    margin-bottom: 20px; 
+}
+.aboutrow1 {
+    display: flex;
+}
+
+.aboutrow2 {
+    display: flex;
+}
+
+.bottom-content-about {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+/* Products */
+
+.productblock img {
+    width: 300px;
+    height: 250px;
+}
+
+
+
+
+/* For some reason the images change size in my display when I refresh, even without any edits to code. ???  */
+
+.middle-content-products {
+    display: flex;
+    width: 880px;
+    flex-flow: column;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+
+.productblock {
+    display: flex;
+    width: 700px;
+    height: 250px; 
+    margin: 20px;
+    justify-content: space-between;
+}
+
+.producttext {
+    margin: 50px;
+}
+
+.bottom-content-product {
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 50px;
+    margin-left: 20px;
 }
