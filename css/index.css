@@ -91,8 +91,9 @@ header nav a {
     font-size: 14px;
 }
 
+
 header nav a:hover {
-    border-bottom: 3px solid black;
+    text-decoration: underline;
 }
 
 /* ------ */
@@ -125,17 +126,6 @@ header nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .bottom-content {
@@ -264,20 +254,13 @@ button {
 .middle-content-about {
     margin: 50px 0;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     justify-content: space-between;
     height: 920px;
 
 }
 .aboutblock img {
     margin-bottom: 20px; 
-}
-.aboutrow1 {
-    display: flex;
-}
-
-.aboutrow2 {
-    display: flex;
 }
 
 .bottom-content-about {
@@ -287,6 +270,9 @@ button {
     margin-left: 20px;
 }
 
+/* ------ */
+
+
 /* Products */
 
 .productblock img {
@@ -294,10 +280,6 @@ button {
     height: 250px;
 }
 
-
-
-
-/* For some reason the images change size in my display when I refresh, even without any edits to code. ???  */
 
 .middle-content-products {
     display: flex;
